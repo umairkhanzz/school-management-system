@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Form</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="navbar">
+      <div class="logo">
+        <h1><span>Edu</span>house</h1>
+      </div>
+      <div class="menu">
+        <p>MAIN MENU</p>
+      </div>
+      
+        <a class="links" href="">
+          <div class="icon">
+              <img src="assets/images/home remove.png" alt="hh">
+          </div>
+          <div class="para">Home</div>
+        </a>
+        <a class="links" href="">
+          <div class="icon">
+              <img src="assets/images/admission.png" alt="hh">
+          </div>
+          <div class="para">Admission</div>
+        </a>
+        <a class="links" href="">
+          <div class="icon">
+              <img style="height: 40px; width: 35px;" src="assets/images/logout (1).png" alt="hh">
+          </div>
+          <div class="para">Logout</div>
+        </a>
+      
+      
+    </div>
+    <div class="container">
+      <div class="up">
+
+      </div>
+      <div class="form">
+        
+        </a>
+        <div class="heading">
+          <a href="#" class="hamburger-section">
+            <div class="hamburger">
+
+            </div>
+          </a>      
+          <h1><span>Admission</span> Form</h1>
+        </div>
+        <div class="container2">
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name </label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" required placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" required placeholder="Your last name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="dob">Date-of-Birth</label>
+              </div>
+              <div class="col-75">
+                <input type="date" required id="dob" name="dob">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="fathername">Father Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fathername" required name="fathername" placeholder="Father name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Country</label>
+              </div>
+              <div class="col-75">
+                <select required id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="Pakistan">Pakistan</option>
+                  <option value="India">India</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <textarea required id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   <script src="assets/js/admission.js"></script>
+
+</body>
+
+</html>
